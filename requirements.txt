@@ -1,1 +1,26 @@
+# Core
+python>=3.8
+torch>=1.13
+torchvision
+torchaudio
 
+# Computer vision / face landmarks
+opencv-python
+mediapipe            # preferred for landmarks
+face_recognition     # optional fallback (requires dlib)
+
+# Audio
+librosa
+soundfile
+numpy
+scipy
+
+# Utilities
+fastapi
+uvicorn[standard]
+moviepy               # video/audio extraction convenience
+pydantic
+tqdm
+
+# Frontend (if you plan to run dev server locally)
+# (React deps installed via create-react-app or Vite)
